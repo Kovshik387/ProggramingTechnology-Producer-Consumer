@@ -1,4 +1,4 @@
-package org.example.Pattern;
+package org.example.pattern;
 
 import org.example.model.Ship;
 
@@ -24,7 +24,7 @@ public class Producer implements Runnable {
                 counter++;
                 dataQueue.add(generateShip());
                 System.out.println("Объект добавлен поставщиком его id: " + counter);
-                Thread.sleep(2000);
+                Thread.sleep(20);
             }
         } catch (InterruptedException e) {
             throw new RuntimeException(e);

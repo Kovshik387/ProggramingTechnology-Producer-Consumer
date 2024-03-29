@@ -1,4 +1,4 @@
-package org.example.Pattern;
+package org.example.pattern;
 
 import org.example.model.Ship;
 

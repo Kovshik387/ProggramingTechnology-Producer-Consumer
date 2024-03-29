@@ -1,4 +1,4 @@
-package org.example.Pattern;
+package org.example.pattern;
 //Реализация получателя
 public class Consumer implements Runnable {
     private final DataQueue dataQueue;
